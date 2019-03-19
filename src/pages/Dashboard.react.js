@@ -1,8 +1,15 @@
-import React from 'react';
+import React from 'react'
+import CreateForm from '../components/CreateForm.react'
+import RepoLists from '../components/RepoLists.react'
 
 class Dashboard extends React.Component {
     render() {
-        return <h1>Dashboard</h1>
+        return (
+            <>
+                <CreateForm />
+                <RepoLists />
+            </>
+        )
     }
 }
 
